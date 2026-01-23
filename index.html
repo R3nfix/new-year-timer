@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отсчет до Нового Года</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="./icons/new-year-logo.png"/>
+</head>
+<body class="dark">
+
+    <div class="info">
+        <div class="info__header">
+            <h1 class="info__header-text">До Нового Года осталось:</h1>
+        </div>
+    </div>
+
+    <div class="timer">
+        <div class="timer__border">
+            <div class="timer__item timer__days">
+                <h2 data-js-days>00</h2>
+                <p>Дней</p>
+            </div>
+            <div class="timer__item timer__hours">
+                <h2 data-js-hours>00</h2>
+                <p>Часов</p>
+            </div>
+            <div class="timer__item timer__minutes">
+                <h2 data-js-minutes>00</h2>
+                <p>Минут</p>
+            </div>
+            <div class="timer__item timer__seconds">
+                <h2 data-js-seconds>00</h2>
+                <p>Секунд</p>
+            </div>
+        </div>
+    </div>
+
+    <i class='bx  bx-moon' data-js-moon></i>
+    
+    <script src="./theme.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
