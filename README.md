@@ -1,12 +1,12 @@
 # New Year Timer website
 
-<h3>[&#x1f1fa;&#x1f1f8; EN]</h3>
+<h3>[EN]</h3>
 
 <p>This is a New Year's countdown website, written in HTML, CSS, and JavaScript with a minimalist design.</p>
 
 <a href="https://r3nfix.github.io/new-year-timer/">Link to the website</a>
 
-<h3>[&#x1F1FA;&#x1F1F7; RU]</h3>
+<h3>[RU]</h3>
 
 <p>Это сайт - отсчёт до Нового года, написанный на HTML, CSS, JavaScript с минималистичным дизайном.</p>
 
